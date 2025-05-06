@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-color: #135c81;
+    padding-block: 25px;
+}
+.h1 {
+    color: white;
+    text-align: center;
+}
+
+.body {
+    background-color: aliceblue;
+}
+
+.divGlobal {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.divAdd {
+    background-color: white;
+    padding: 10px;
+    border: #135c81 solid 1px;
+    border-radius: 5px;
+}
+
+.formAdd {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.divTask {
+    background-color: white;
+    padding: 10px;
+    border: #135c81 solid 1px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.listTasks {
+    list-style: none;
+    padding: 0;
+}
+
+.completedTask {
+    text-decoration: line-through;
+}
